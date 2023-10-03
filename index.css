@@ -10,13 +10,13 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width:100vw;
+    width: 100vw;
     background: #000;
 }
 
 h1{
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    padding: 0px;
     color: #111;
     font-size: 12em;
 
@@ -78,4 +78,26 @@ h1 span:nth-child(7)
         filter: blur(0px);
         text-shadow: none;
     }
+}
+@media screen and (max-width:1200px) {
+    h1{
+       
+        width:1000px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    h1{
+        width:200px;
+        margin-right: 50px;
+        
+    }
+    
+}
+@media screen and (max-width:350px) {
+    h1{
+        width:50pxx;
+        
+    }
+    
 }
